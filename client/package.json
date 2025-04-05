@@ -18,6 +18,10 @@
   "start": "react-scripts start"
 },
 
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+},
+
 
   "eslintConfig": {
     "extends": [
@@ -45,5 +49,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module"
 }
